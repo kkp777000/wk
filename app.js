@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const mysql = require('mysql');
 
 // 配置 Telegram 机器人
-const bot = new TelegramBot('6698946711:AAFk0g_2aXBToLrzFAq8-ZNfv0Qwcg6RGlc', { polling: true });
+const bot = new TelegramBot('6787357076:AAHeFDv4RA_mSF93fyY92GYSELmTSc7dj4w', { polling: true });
 
 // 配置 MySQL 数据库连接
 const dbConnection = mysql.createConnection({
